@@ -44,8 +44,8 @@
     <string name="map_delete">Delete the map</string>
     <string name="gps_preferences">Gps settings</string>
     <string name="gps_preferences_summary">Set GPS preferences as logging distance or interval.</string>
-    <string name="gps_logging_distance">Min gps logging distance</string>
-    <string name="gps_logging_interval">Min gps logging interval</string>
+    <string name="gps_logging_distance">Min gps logging distance (meters)</string>
+    <string name="gps_logging_interval">Min gps logging interval (seconds)</string>
     <string name="gps_use_android_level">Use at android level (saves battery, needs restart)</string>
     <string name="gps_use_android_level_summary">If checked, the gps settings are applied at operating system level, which can save battery, but might have a less stable signal when choosing large intervals (if you have gps connection problems on check devices, leave this unchecked). Note that the gps os powered continuously for send intervals less than 100 seconds. For better battery life choose larger intervals.</string>
     <string name="sms_preferences">Sms settings</string>
@@ -422,8 +422,7 @@
     <string name="layout_settings_title">Layout Settings</string>
     <string name="layout_settings_summary">Various GUI Settings</string>
     <string name="gui_textsize_factor_title">Text Size Factor</string>
-    <string name="gui_textsize_factor_summary">Resize factor for text</string>
     <string name="gui_column_count_title">Number of Button Columns</string>
-    <string name="gui_column_count_summary">Number of Note Button Columns</string>
+
 
 </resources>
